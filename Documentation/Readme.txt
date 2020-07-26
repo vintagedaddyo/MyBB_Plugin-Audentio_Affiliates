@@ -11,7 +11,7 @@ Go to Admin CP And Active it and set settings in configuration settings
 * note: I had a little bit of free time and had noticed awhile back that 
 this no longer worked due to several factors to include the fact of site 
 removal of affiliates functionality and site change from audentio to themehouse thus causing the links and images to not 
-work and such as well as mant themes needed to be added. This simple edit 
+work and such as well as many themes needed to be added. This simple edit 
 quickly touch on those related update edits and any other minor edits simply 
 done in my limited free time to get the item re-functioning. That is all.
 
