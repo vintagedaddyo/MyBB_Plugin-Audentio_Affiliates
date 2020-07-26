@@ -132,9 +132,9 @@ if($mybb->input['category'] != '')
 
 else {
 	
-        $allowed = array();
         // meh perhaps look at this more when I actually have the time to do so?
-        if($allowed && count($allowed > 0) && $mybb->settings['aff_cats_shown'] != 0)
+        //if(count($allowed > 0) && $mybb->settings['aff_cats_shown'] != 0)
+        if(count(array($allowed > 0)) && $mybb->settings['aff_cats_shown'] != 0)
         {
 		
 		$where = "cat IN ({$mybb->settings['aff_cats_shown']})";
