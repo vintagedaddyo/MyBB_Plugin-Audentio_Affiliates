@@ -328,6 +328,7 @@ function install_sample()
 	$cat = array(
 	'name'	=> 'MyBB',
 	);
+
 	$db->insert_query('audentio_products_cats', $cat);
 
  // cat 2
@@ -335,6 +336,7 @@ function install_sample()
 	$cat = array(
 	'name'	=> 'Xenforo-1',
 	);
+
 	$db->insert_query('audentio_products_cats', $cat);	
 	
 	// cat 3
@@ -342,6 +344,7 @@ function install_sample()
 	$cat = array(
 	'name'	=> 'Xenforo-2',
 	);
+
 	$db->insert_query('audentio_products_cats', $cat);		
 		
 // cat 1
@@ -355,6 +358,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/glowing',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -366,6 +370,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/sky',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -377,6 +382,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/gaming-jam',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -388,6 +394,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/necro',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -399,6 +406,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/dazzle',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -410,6 +418,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/citrus',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 
 	$prod = array(
@@ -421,6 +430,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/luxure',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -432,6 +442,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/dark-series',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -443,6 +454,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/orange-crush',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -454,6 +466,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/unova',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -465,6 +478,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/neonglow',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -476,6 +490,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/mybb/themes/go-series',
 		'cat'		=>  '1'
 	);
+
 	$db->insert_query('audentio_products', $prod);		
 	
 	
@@ -490,6 +505,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/peachy-keen',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -501,6 +517,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/xensplash',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -512,6 +529,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/ui-x',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -523,6 +541,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/ui-x-dark',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -534,6 +553,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/class',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -545,6 +565,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/drift',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);
 	
 	$prod = array(
@@ -556,6 +577,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/drift-dark',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -567,6 +589,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/quark',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 
 	$prod = array(
@@ -578,6 +601,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/antiquark',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -589,6 +613,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/rekt',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 		
 	$prod = array(
@@ -600,6 +625,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/tactical',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -611,6 +637,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/rogue',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 
 	$prod = array(
@@ -622,6 +649,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/reneue',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -633,6 +661,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/xenblock',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);		
 	
 	$prod = array(
@@ -644,6 +673,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/material',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);			
 	
 	$prod = array(
@@ -655,6 +685,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/abyss',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);				
 
 	$prod = array(
@@ -666,6 +697,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/xenith',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);				
 	
 	$prod = array(
@@ -677,6 +709,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/scratch',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);				
 
 	$prod = array(
@@ -688,6 +721,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/intrepid',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);				
 
 	$prod = array(
@@ -699,6 +733,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/tactical-light',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);				
 	
 	$prod = array(
@@ -710,6 +745,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/ui-flex',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);					
 
 	$prod = array(
@@ -721,6 +757,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/intrinsic',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);					
 	
 	$prod = array(
@@ -732,6 +769,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/corp',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);							
 
 	$prod = array(
@@ -743,6 +781,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/ui-x-halloween',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);		
 	
 	$prod = array(
@@ -754,6 +793,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/ui-flex-dark',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -765,6 +805,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/bliss',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);			
 
 	$prod = array(
@@ -776,6 +817,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/proximity',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);	
 	
 	$prod = array(
@@ -787,6 +829,7 @@ function install_sample()
 		'link'		=> 'https://www.themehouse.com/xenforo/1/themes/crumble',
 		'cat'		=>  '2'
 	);
+
 	$db->insert_query('audentio_products', $prod);		
 							
 // cat 3	
@@ -801,7 +844,7 @@ function install_sample()
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 			
 	$prod = array(
 		'name'		=> 'UI.X 2 Dark',
@@ -813,7 +856,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'Intrepid',
@@ -825,7 +868,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);			
+        $db->insert_query('audentio_products', $prod);			
 
 	$prod = array(
 		'name'		=> 'Xenith',
@@ -837,7 +880,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'Abyss',
@@ -849,7 +892,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'Drift',
@@ -861,7 +904,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'Drift Dark',
@@ -873,7 +916,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'iO',
@@ -885,7 +928,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'iO Dark Mode',
@@ -897,7 +940,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);
+        $db->insert_query('audentio_products', $prod);
 
 	$prod = array(
 		'name'		=> 'Class',
@@ -909,9 +952,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);				
+         $db->insert_query('audentio_products', $prod);				
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'UI.X Classic',
 		'image'		=> 'https://media.audent.io/product/hero_image/240/classic-hero-image.png',
 		'title'		=> 'UI.X Classic',
@@ -921,9 +964,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'UI.X Classic Dark',
 		'image'		=> 'https://media.audent.io/product/hero_image/242/classic-dark-hero-image.png',
 		'title'		=> 'UI.X Classic Dark',
@@ -933,9 +976,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> '#Rekt',
 		'image'		=> 'https://media.audent.io/product/hero_image/263/rekt-hero-image.png',
 		'title'		=> '#Rekt',
@@ -945,11 +988,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);		
 
-$db->insert_query('audentio_products', $prod);	
-
-	$prod = array(
+       	 $prod = array(
 		'name'		=> 'Westlake',
 		'image'		=> 'https://media.audent.io/product/hero_image/264/westlake-hero-image.png',
 		'title'		=> 'Westlake',
@@ -959,9 +1000,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+          $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	  $prod = array(
 		'name'		=> 'Prisma',
 		'image'		=> 'https://media.audent.io/product/hero_image/265/prisma-hero-image.png',
 		'title'		=> 'Prisma',
@@ -971,9 +1012,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+          $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'BLOK',
 		'image'		=> 'https://media.audent.io/product/hero_image/273/BLOK_light_hero_TH.png',
 		'title'		=> 'BLOK',
@@ -983,9 +1024,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'BLOK Dark',
 		'image'		=> 'https://media.audent.io/product/hero_image/274/BLOK_dark_hero_TH_2x.png',
 		'title'		=> 'BLOK Dark',
@@ -995,9 +1036,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'Boo!',
 		'image'		=> 'https://media.audent.io/product/hero_image/275/boo-th-hero.png',
 		'title'		=> 'Boo!',
@@ -1007,9 +1048,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'Thankful',
 		'image'		=> 'https://media.audent.io/product/hero_image/276/thankful_hero_2x.png',
 		'title'		=> 'Thankful',
@@ -1019,9 +1060,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+        $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+ 	$prod = array(
 		'name'		=> 'Legend',
 		'image'		=> 'https://media.audent.io/product/hero_image/277/legend-th-hero_2x.png',
 		'title'		=> 'Legend',
@@ -1031,9 +1072,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'Gift',
 		'image'		=> 'https://media.audent.io/product/hero_image/278/gift-th-hero_2x.png',
 		'title'		=> 'Gift',
@@ -1043,9 +1084,9 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
-	$prod = array(
+	 $prod = array(
 		'name'		=> 'Tactical',
 		'image'		=> 'https://media.audent.io/product/hero_image/221/tactical-hero-image-updated.png',
 		'title'		=> 'Tactical',
@@ -1055,7 +1096,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+        $db->insert_query('audentio_products', $prod);	
 
 	$prod = array(
 		'name'		=> 'Flare',
@@ -1067,7 +1108,7 @@ $db->insert_query('audentio_products', $prod);
 		'cat'		=>  '3'
 	);
 		
-$db->insert_query('audentio_products', $prod);	
+         $db->insert_query('audentio_products', $prod);	
 
 }
 
