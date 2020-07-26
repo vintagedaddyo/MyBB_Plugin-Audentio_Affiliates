@@ -1,0 +1,1 @@
+# MyBB_Plugin-Audentio_Affiliates
