@@ -111,7 +111,7 @@ function audentio_aff_install()
 		0. Allow everything  <br />
 		1. MyBB  <br />
 		2. Xenforo-1  <br />
-		2. Xenforo-2",
+		3. Xenforo-2",
 		"optionscode"	=> "text",
 		"value"			=> '0',
 		"disporder"		=> '3',
