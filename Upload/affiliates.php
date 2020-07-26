@@ -132,7 +132,7 @@ if($mybb->input['category'] != '')
 
 else {
 	
-        // meh perhaps look at this more when I actually have the time to do so?
+        // meh perhaps look at this more when I actually have the time to do so? Note to self: sleep and coffee may be a solution, lol
         //if(count($allowed > 0) && $mybb->settings['aff_cats_shown'] != 0)
         if(count(array($allowed > 0)) && $mybb->settings['aff_cats_shown'] != 0)
         {
