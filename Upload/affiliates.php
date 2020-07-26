@@ -3,7 +3,7 @@
  *
  *  Audentio Design Affiliated Themes Plugin
  *  Authors: Audentio Design & updated by Vintagedaddyo
- *  Copyright: © 2012 Audentio
+ *  Copyright: Â© 2012 Audentio
  *  
  *  Website: http://www.audentio.com
  *  License: license.txt
@@ -132,8 +132,8 @@ if($mybb->input['category'] != '')
 
 else {
 	
-if((count(array($allowed)) > 0) && $mybb->settings['aff_cats_shown'] != 0)
-	{
+        if(is_array($allowed) && count($allowed > 0) && $mybb->settings['aff_cats_shown'] != 0)
+        {
 		
 		$where = "cat IN ({$mybb->settings['aff_cats_shown']})";
 		
