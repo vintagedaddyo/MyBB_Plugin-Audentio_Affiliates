@@ -33,6 +33,7 @@ function audentio_aff_info()
 function audentio_aff_install()
 {
 	global $db;
+
 	if($db->table_exists('audentio_products'))
 	{
 		$db->write_query("DROP TABLE ".TABLE_PREFIX."audentio_products");
@@ -40,7 +41,7 @@ function audentio_aff_install()
 	}
 	
 	$db->write_query("CREATE TABLE ".TABLE_PREFIX."audentio_products_cats (".
-		"cid INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL DEFAULT NULL, ".
+		"cid INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL, ".
 		"name VARCHAR(120), ".
 		"items INT(5))
 	");
@@ -48,8 +49,9 @@ function audentio_aff_install()
 	{
 		$db->write_query("DROP TABLE ".TABLE_PREFIX."audentio_products_cats");
 	}
+
 	$db->write_query("CREATE TABLE ".TABLE_PREFIX."audentio_products (".
-		"pid INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL DEFAULT NULL, ".
+		"pid INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL, ".
 		"name VARCHAR(32), ".
 		"image text, ".
 		"title VARCHAR(255), ".
@@ -63,7 +65,7 @@ function audentio_aff_install()
 	
 	install_sample();
 	
-	$query = $db->simple_select("settinggroups", "COUNT(*) as rows");
+	$query = $db->simple_select("settinggroups", "COUNT(*) as `rows`");
 	
 	$affrows = $db->fetch_field($query, "rows");
 	
@@ -276,9 +278,9 @@ function audentio_aff_install()
 function audentio_aff_is_installed()
 {
 	global $db;
-		if($db->table_exists('audentio_products'))
+		if($db->table_exists('audentio_products')) {
 		return true;
-	
+	    }
 	return false;
 }
 
@@ -305,6 +307,7 @@ function audentio_aff_deactivate()
 function audentio_aff_uninstall()
 {
 	global $db, $mybb;
+
 	$db->delete_query("settinggroups", "name = 'aff_system'");
 	
 	$db->delete_query('settings', 'name IN ( \'aff_active\',\'aff_cats_shown\', \'aff_page_title\', \'aff_affid\')');

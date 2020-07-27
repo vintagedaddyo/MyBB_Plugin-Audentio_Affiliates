@@ -92,7 +92,7 @@ if($mybb->input['category'] != '')
 				"limit" => $pplimit,
 			);
 			
-			$query = $db->simple_select("audentio_products", "COUNT(*) as rows", 'cat="'.$cid['cid'].'"');
+			$query = $db->simple_select("audentio_products", "COUNT(*) as `rows`", 'cat="'.$cid['cid'].'"');
 			
 			$num = $db->fetch_field($query, "rows");
 			
@@ -147,7 +147,7 @@ else {
 		"limit" => $pplimit,
 	);
 	
-	$query = $db->simple_select("audentio_products", "COUNT(*) as rows", $where);
+	$query = $db->simple_select("audentio_products", "COUNT(*) as `rows`", $where);
 	$num = $db->fetch_field($query, "rows");
 	
 	$query = $db->simple_select('audentio_products', '*' ,$where, $options);
